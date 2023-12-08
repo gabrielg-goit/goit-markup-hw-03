@@ -42,9 +42,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   width: 1158px;
-  height: 72px;
-  flex-shrink: 0;
-  background: var(--white);
 }
 
 .nav-one {
@@ -164,6 +161,7 @@ body {
 
 .hero {
   background-color: var(--navy-blue);
+  padding: 188px;
 }
 
 .hero-button:hover,
@@ -258,6 +256,7 @@ body {
 
 .footer-content {
   color: var(--cloud);
+  max-width: 264px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -267,12 +266,26 @@ body {
 
 /* Portfolio.html */
 
+.section-portfolio {
+  list-style: none;
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.button-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .first-one-button {
   color: var(--white);
   background: var(--ocean);
   display: flex;
   padding: 12px 24px;
   align-items: flex-start;
+  border: 1px solid var(--corn);
   border-radius: 4px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -310,16 +323,52 @@ body {
 .first-one-button:hover,
 .first-one-button:focus {
   background-color: var(--white);
+  border: 1px solid transparent;
   color: var(--ocean);
 }
 
 .sec-one-button:hover,
 .sec-one-button:focus {
   background-color: var(--ocean);
+  border: 1px solid transparent;
   color: var(--white);
+}
+
+.feature-portfolio {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.feature-image-portfolio {
+  width: calc((100% - 48px) / 3);
+  text-decoration: none;
+}
+
+.link-portofolio {
+  padding: 32px 16px;
+  border: 1px solid var(--corn);
+  border-top: none;
 }
 
 .footer {
   background-color: var(--navy-blue);
   padding: 100px 0;
+}
+
+.part-one-logos {
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
