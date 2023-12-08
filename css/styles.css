@@ -12,16 +12,6 @@
 
 /* Global Styles */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
@@ -161,7 +151,7 @@ body {
 
 .hero {
   background-color: var(--navy-blue);
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .hero-button:hover,
