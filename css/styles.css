@@ -127,7 +127,9 @@ ul {
 .hero-content {
   color: var(--white);
   max-width: 496px;
-  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -154,7 +156,7 @@ ul {
 
 .hero {
   background-color: var(--navy-blue);
-  padding: 188px 0;
+  padding: 188px 0px;
 }
 
 .hero-button:hover,
@@ -375,8 +377,11 @@ ul {
   padding: 100px 0;
 }
 
+.footer-alin {
+  flex-direction: column;
+}
+
 .part-one-logos {
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
   text-decoration: none;
@@ -391,6 +396,7 @@ ul {
 }
 .part-three-logo {
   color: var(--cloud);
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   letter-spacing: 0.03em;
