@@ -352,6 +352,9 @@ ul {
 }
 
 .feature-image-portfolio {
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
   width: calc((100%-48px) / 3);
 }
 
