@@ -133,7 +133,7 @@ ul {
   color: var(--white);
   max-width: 496px;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   /* text-align: center; */
   font-size: 56px;
   font-style: normal;
