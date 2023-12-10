@@ -367,7 +367,6 @@ ul {
 }
 
 .feature-image-portfolio {
-  flex-direction: column;
   width: calc((100%-48px) / 3);
 }
 
