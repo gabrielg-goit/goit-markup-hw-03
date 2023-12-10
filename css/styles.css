@@ -32,6 +32,11 @@ ul {
   padding: 0;
 }
 
+.general {
+  width: 1440px;
+  height: 2592px;
+}
+
 .div-header {
   display: flex;
 }
@@ -346,7 +351,6 @@ ul {
 }
 
 .feature-portfolio {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -355,8 +359,6 @@ ul {
 
 .feature-image-portfolio {
   flex-direction: column;
-  gap: 32px;
-  flex-shrink: 0;
   width: calc((100%-48px) / 3);
 }
 
