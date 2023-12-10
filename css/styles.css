@@ -23,6 +23,14 @@ body {
   color: #434455;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 .div-header {
   display: flex;
@@ -115,8 +123,6 @@ body {
   color: var(--ocean);
 }
 
-
-
 .hero-content {
   color: var(--white);
   max-width: 496px;
@@ -146,7 +152,7 @@ body {
 }
 
 .hero {
- background-color: var(--navy-blue);
+  background-color: var(--navy-blue);
   padding: 188px;
 }
 
@@ -164,9 +170,7 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-
 }
-
 
 .feature-section {
   padding: 120px 0;
@@ -222,7 +226,7 @@ body {
 .team-back {
   background-color: var(--cloud);
   padding: 120px 0;
- }
+}
 
 .div-sec-four {
   padding: 32px;
@@ -291,8 +295,6 @@ body {
   align-items: flex-start;
   border: 1px solid var(--corn);
   border-radius: 4px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
@@ -347,8 +349,8 @@ body {
 }
 
 .feature-image-portfolio {
-  display: block
-  width: calc((100% - 48px) / 3);
+  display: block;
+  width: calc((100%-48px) / 3);
   text-decoration: none;
 }
 
