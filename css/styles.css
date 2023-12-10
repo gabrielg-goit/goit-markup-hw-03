@@ -360,7 +360,7 @@ ul {
 }
 
 .div-images-portfolio {
-  padding: 32px 16;
+  padding: 32px 16px;
   border: 1px solid var(--corn);
   border-top: none;
 }
